@@ -73,7 +73,7 @@ gulp.task('built:copy:typings', () => {
 
 gulp.task('webdriver:update', (done) => {
   runSpawn(done, 'node', ['bin/webdriver-manager', 'update',
-  '--versions.chrome=2.44']);
+  '--versions.chrome=2.45']);
 });
 
 gulp.task('format', () => {
